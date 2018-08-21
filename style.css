@@ -1,0 +1,46 @@
+header {
+  font-family: "Trebuchet", sans-serif;
+  font-size: 16px;
+  display: grid;
+  text-align: center;
+  /*padding: 200px; */
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: peru;
+
+}
+
+header .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 20px
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  font-size:
+}
+
+.box {
+
+}
+
+main {
+  background-color: #FFF8E7
+}
+h2 {
+  font-family: "Trebuchet", sans-serif;
+  background-color: #FFF8E7
+  padding: 100px;
+  margin-top: 10px;
+}
+p {
+  font-family: "Garamond", sans-serif;
+  background-color: #FFF8E7
+
+}
+.banner {
+  height: 100;
+  display: grid;
+
+}
