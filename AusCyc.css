@@ -1,0 +1,112 @@
+p {
+  font-size: 12px;
+
+}
+
+.logo {
+  font-style: italic;
+  font-size: 28px;
+  font-family: Arial;
+  padding-left: 15%;
+  color: teal;
+}
+
+h3 {
+  font-family: Arial;
+  padding-left: 55px;
+}
+
+a { color: darkgrey; text-decoration: none;}
+a:visited { text-decoration: none; color:lightgrey; }
+a:hover { text-decoration: none; color:grey; }
+a:focus { text-decoration: none; color:grey; }
+a:hover, a:active { text-decoration: none; color:lightgrey; }
+
+
+#mainContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#destList {
+/*  border: 5px; */
+  width: 95%;
+  background-color: teal;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Helvetica;
+  color: darkgrey;
+}
+
+#destList a {
+  /*border: 1px solid darkgrey; */
+  display: block;
+  /*border-top: -1px;*/
+  height: 50px;
+  /*margin-top: 3px;*/
+}
+
+#searchBar {
+  width: 90%;
+  height: 30px;
+}
+
+#navbar {
+  background-color: #41B3BC;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+#navbar a {
+  color: white;
+}
+
+#searchBar {
+  padding-left: 60px;
+}
+
+.navitem {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white
+}
+
+#footbar {
+  background-color: #41B3BC;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  /*margin-top: -32px;*/
+  z-index: -1;
+  position: relative;
+}
+
+#topDiv {
+  width: 100%;
+  background-color: #fff;
+}
+
+#leftContent {
+  background-color: teal;
+}
+
+#rightContent {
+  background-color: teal;
+  border: 1px solid darkgrey;
+}
+.footitem {
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: lightgrey;
+  font-style: italic;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* The greatest thing you'll ever know
+    is just to love
+        and be loved in return. */
