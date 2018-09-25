@@ -8,12 +8,24 @@ p {
 h4 {
   font-family: Arial;
   color: lightgrey;
-  font-size: 14px;
+  font-size: 26px;
+  font-style: italic;
+  padding-left: 20%;
+
 }
 
 h3 {
   font-family: Arial;
   padding-left: 55px;
+}
+
+h5 {
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 5%;
+  color: lightgrey;
 }
 
 /* These elements control how the hyperlinks look on the main page */
@@ -111,6 +123,12 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
 
 #leftContent {
   background-color: teal;
+  border: 1px solid darkgrey;
+}
+
+#leftContent p {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #rightContent {
