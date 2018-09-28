@@ -6,6 +6,7 @@
 </head>
 <body>
   <header>
+<!--  The navbar uses a CSS Grid to keep its shape  -->
     <div id='navbar'>
       <div class="navitem"><a href="index.html">Home</a></div>
       <div class="navitem"><a href="about.html">About Us</a></div>
@@ -19,8 +20,10 @@
       <div id="mainContent">
         <div id="leftContent">
       <h3>Select a Destination or search from the list below!<h3>
+        <!--  This textbox controls the destination search.  -->
         <input type"text" id="searchBar" onkeyup="travDest()" placeholder="Enter a destination!">
           <ul id="destList">
+            <!--  Destination List  -->
             <li><a href="NewSouthW.html">New South Wales</a></li>
             <li><a href="Queensland.html">Queensland</a></li>
             <li><a href="SouthAus.html">South Australia</a></li>
@@ -33,7 +36,8 @@
             <li><a href="AAT.html">Australian Antarctic Territory</a></li>
             <!--<li><a href="Clouds.html">Islands of Australia</a></li> -->
           </ul>
-            <!--This script is modified from W3School, cite -->
+            <!--  This script is modified from W3School   -->
+            <!--  The script controls what is displayed in the list, by filtering what is written in the above textbox.  -->
             <script>
             function travDest() {
                 var input, filter, ul, li, a, i;
@@ -59,6 +63,7 @@
 
     </main>
     <footer>
+      <!--  The footer holds information regarding the assignment.  -->
       <div id='footbar'>
         <div class="footitem">CycleAus Travel is a division of the CycleWorld Corp.</div>
         <div class="footitem">2018 - 8401366 for 11 Information Technology</div>
