@@ -15,8 +15,40 @@
     <main>
       <div id=topDiv>
       <h1 class="logo">Enquire Now!</h1>
+      <div id="tealBack">
       <p>Thank you for your intrest in CycleAus Travel.</p>
-      <p>Fill in the form below for more information.</p>
+      <p>Please fill in the form below for more information.</p>
+      <form action="formsend.html" method="post">
+        <div class="formSign">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="formName" name="form_Name" placeholder="Name">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="formEmail" name="form_Mail" placeholder="Email">
+          </div>
+          <div>
+            <label for="destination">Destination:</label>
+            <select id="state" name="form_State">
+              <option value="NSW">NSW</option>
+              <option value="QLD">QLD</option>
+              <option value="SA">SA</option>
+              <option value="TAS">TAS</option>
+              <option value="VIC">VIC</option>
+              <option value="WA">WA</option>
+              <option value="ACT">ACT</option>
+              <option value="JBT">JBT</option>
+              <option value="NT">NT</option>
+              <option value="AAT">AAT</option>
+            </select>
+          </div>
+          <div class="form_Button">
+            <button type="submit">Submit Form</button>
+          </div>
+       </div>
+      </form>
+    </div>
     </div>
     </main>
     <footer>

@@ -5,6 +5,17 @@ p {
   font-family: Arial;
 }
 
+#aboutPar {
+  color: darkgrey;
+}
+
+h2 {
+  font-family: Arial;
+  color: rgb(0, 183, 192);
+  padding-left: 20px;
+  font-style: italic;
+}
+
 h4 {
   font-family: Arial;
   color: lightgrey;
@@ -138,3 +149,12 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   background-color: teal;
   border: 1px solid darkgrey;
 }
+
+#tealBack {
+  background-color: teal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  min-height: 370px;
+}
+/* Form CSS Below */
