@@ -156,5 +156,20 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   padding-bottom: 10px;
   padding-left: 10px;
   min-height: 370px;
+
 }
 /* Form CSS Below */
+
+.formSign {
+  font-size: 18px;
+  font-family: Arial;
+  color: lightgrey;
+  padding-left: 20px;
+}
+
+button {
+  width: 500px;
+  height: 40px;
+  font-size: 22px;
+  font-family: arial;
+}

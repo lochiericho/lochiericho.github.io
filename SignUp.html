@@ -22,12 +22,19 @@
         <div class="formSign">
           <div>
             <label for="name">Name:</label>
-            <input type="text" id="formName" name="form_Name" placeholder="Name">
+            <input type="text" id="formName" name="form_Name" placeholder="Name" required>
           </div>
+          <br>
           <div>
             <label for="email">Email:</label>
-            <input type="email" id="formEmail" name="form_Mail" placeholder="Email">
+            <input type="email" id="formEmail" name="form_Mail" placeholder="Email" required>
           </div>
+          <br>
+          <div>
+            <label for="tel">Mobile:</label>
+            <input type="tel" id="formTel" name="form_Tel" placeholder="Mobile" required>
+          </div>
+          <br>
           <div>
             <label for="destination">Destination:</label>
             <select id="state" name="form_State">
@@ -44,6 +51,7 @@
               <option value="AAT">AAT</option>
             </select>
           </div>
+          <br>
           <div>
             <label for="newsletter">Newsletter:</label>
             <select id="NewLet" name="form_NewLet">
@@ -51,6 +59,8 @@
               <option value="No">No</option>
             </select>
           </div>
+          <br>
+          <br>
           <div class="form_Button">
           <button type="submit">Submit Form</button>
           </div>
