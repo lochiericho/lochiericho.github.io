@@ -1,3 +1,4 @@
+/* Paragraph styling */
 
 p {
   font-size: 22px;
@@ -5,9 +6,13 @@ p {
   font-family: Arial;
 }
 
+/* Paragraph Styling */
+
 #aboutPar {
   color: darkgrey;
 }
+
+/* Heading 2 styling */
 
 h2 {
   font-family: Arial;
@@ -15,6 +20,8 @@ h2 {
   padding-left: 20px;
   font-style: italic;
 }
+
+/* Heading 4 styling */
 
 h4 {
   font-family: Arial;
@@ -25,10 +32,14 @@ h4 {
 
 }
 
+/* Heading 3 styling */
+
 h3 {
   font-family: Arial;
   padding-left: 55px;
 }
+
+/* Heading 5 styling */
 
 h5 {
   text-decoration: none;
@@ -66,6 +77,8 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   padding-bottom: 10px;
 }
 
+/* Heading Titles */
+
 .logo {
   font-style: italic;
   font-size: 28px;
@@ -74,13 +87,16 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   color: teal;
 }
 
-/* These links are specific to the main page */
+/* Splits the pages into two columns of equal length */
+
 #mainContent {
   display: grid;
   grid-template-columns: 50% 50%;
 }
+
+/* Destination list from main page */
+
 #destList {
-/*  border: 5px; */
   width: 95%;
   background-color: teal;
   font-weight: bold;
@@ -88,6 +104,8 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   font-family: Helvetica;
   color: darkgrey;
 }
+
+/* Destination list links */
 
 #destList a {
   /*border: 1px solid darkgrey; */
@@ -97,12 +115,15 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   /*margin-top: 3px;*/
 }
 
+/* Main page searchbar styling */
+
 #searchBar {
   width: 65%;
   height: 30px;
   padding-left: 60px;
-
 }
+
+/* top of page navbar */
 
 #navbar {
   background-color: #41B3BC;
@@ -117,6 +138,8 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   color: white;
 }
 
+/* footer styling from main page */
+
 #footbar {
   background-color: #41B3BC;
   display: grid;
@@ -127,6 +150,8 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   position: relative;
 }
 
+/* Top text from the main page */
+
 #topDiv {
   width: 100%;
   background-color: #fff;
@@ -135,6 +160,9 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
 #topDiv p {
   color: lightgrey;
 }
+
+/* Left content (main text) from the main CSS grid */
+
 #leftContent {
   background-color: teal;
   border: 1px solid darkgrey;
@@ -145,10 +173,14 @@ a:hover, a:active { text-decoration: none; color:lightgrey; }
   padding-right: 5%;
 }
 
+/* Right content (images) from the main CSS grid */
+
 #rightContent {
   background-color: teal;
   border: 1px solid darkgrey;
 }
+
+/* Teal backgrounds on the about and promotions pages */
 
 #tealBack {
   background-color: teal;
